@@ -1,2 +1,31 @@
 # Diagrama_mod4
 Projeto_individual_mod4_Diagrama&amp;readme
+
+RELATÓRIO DESENVOLVIDO PARA RESPONDER O QUESTIONÁRIO SOLICITADO NA PROPOSTA DO PROJETO.
+
+
+1. Existem outras entidades além dessas três? 
+Sim, criei as entidades: endereço e professores.
+Porque há uma necessidade de adicionar esses dados de forma complementar, para que o conjunto de informações do banco se tornem mais esclarecedoras. 
+
+2. Quais são os principais campos e tipos?
+Na entidade Alunos: alu_id INT, cpf INT, nome VARCHAR, sobrenome VARCHAR, telefone INT, email VARCHAR.
+Na entidade Cursos: cur_id INT nome VARCHAR, carga_horaria INT, preco INT.
+Na entidade Turmas: tur_id INT, cursos VARCHAR, data_inicio DATE.
+Na entidade Endereço: end_id INT, cep INT, rua VARCHAR, complemento VARCHAR, numero INT, estado VARCHAR, municipio VARCHAR, cidade VARCHAR.
+Na entidade Professores: prof_id INT, cpf INT, nome VARCHAR, sobrenome VARCHAR, telefone INT, email VARCHAR.
+
+3. Como essas entidades estão relacionadas?
+Cada um aluno pode ter apenas um endereço;
+Cada um professor pode ter apenas um endereço;
+Cada um aluno pode ter diversos cursos;
+Cada um curso pode ter diversas turmas;
+Cada um professor pode dar aula em diversos cursos;
+Cada professor pode ter vários alunos, assim como alunos podem ter diversos professores.
+
+
+
+Nome: Jenifer Arruda
+Turma: Tarde
+Unidade: Bonsucesso
+Módulo: 4
